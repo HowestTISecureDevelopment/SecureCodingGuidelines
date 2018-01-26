@@ -11,7 +11,11 @@ Possible DOS attack, use try catch with finally to close the resources.
 The public function rs2u does not need to be public, change it to private.
 ####4. Possible sensitive information in exception
 On line 29, there is possible sensitive information into an exception.
-
-##Example Jurgen
-
-
+##Example application Mattias
+####1.Command line injection
+on line 22 there is a "possible" command line injection.
+Mitigation = just don't
+####2. Class should be final
+line 8
+####3. Possible sensitive information in exception
+line 29
